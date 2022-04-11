@@ -1,3 +1,0 @@
-[submodule "git-submodule-test"]
-	path = git-submodule-test
-	url = https://github.com/blockodyssey-jskim/git-submodule-test.git
