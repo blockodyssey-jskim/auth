@@ -1,6 +1,6 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { ConfigService } from '@nestjs/config';
-import { UserEntity } from './user/user.entity';
+import { UserEntity } from '../submodule/src/entity/user.entity';
 
 export const TypeOrmConfig = {
   useFactory: async (

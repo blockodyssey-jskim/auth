@@ -4,7 +4,7 @@ import {
   InternalServerErrorException,
 } from '@nestjs/common';
 import { UserRepository } from './user.repository';
-import { UserEntity } from './user.entity';
+import { UserEntity } from '../../submodule/src/entity/user.entity';
 import { RedisService } from 'src/commons/redis/redis.service';
 import { AuthService } from 'src/auth/auth.service';
 
